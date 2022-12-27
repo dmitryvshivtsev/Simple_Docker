@@ -1,0 +1,9 @@
+version: "3"
+services:
+  server_1:
+    build: part 5/
+  server_2:
+    build: part 6/
+    ports:
+    - 80:8080
+
